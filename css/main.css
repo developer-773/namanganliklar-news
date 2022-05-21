@@ -135,6 +135,7 @@ body{
 .nav-link:hover{
     width: 100px;
     color:#7297EF;
+
 }
 
 .news-columns-lists{
@@ -321,9 +322,14 @@ body{
     line-height: 24px;
     color: #000000;
     text-decoration: none;
+    transition: width 1s ease,color 1s ease;
     
 }
 
+.sidebar-text:hover{
+    width: 100px;
+    color:#7297EF;
+}
 
 .show-more-button{
     
